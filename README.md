@@ -34,6 +34,10 @@ virtualbox should be installed
 4. it is strongly recommended that you set up a proxy (like squid!) to speed up perforance
 of package installation.
 
+5. It is important to install the github-api gem. On a Ubuntu box you might have to install libxml2-dev, libxlt-dev for this. 
+
+    > gem install github_api
+
 # project contents
 
 This project contains the following files
